@@ -1,0 +1,12 @@
+{
+  "algorithm": "follow_planner",
+  "run_name": "evaluate_default",
+  "run_dir": "./evaluate_runs",
+  "render": true,
+  "render_interval_s": 0.0,
+  "model_path": null,
+  "run_config_path": null,
+  "eval_episodes": 10,
+  "eval_threads": 1,
+  "task_limit": 0
+}

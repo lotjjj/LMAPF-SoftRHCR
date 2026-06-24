@@ -1,0 +1,5 @@
+{
+  "critic_mode": "per_agent",
+  "huber_delta": 10.0,
+  "use_clipped_value_loss": true
+}

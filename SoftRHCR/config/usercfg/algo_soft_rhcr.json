@@ -1,0 +1,18 @@
+{
+  "critic_mode": "homogeneous",
+  "reward_mode": "aggressive",
+  "soft_rhcr_L": 2,
+  "soft_rhcr_k": 10,
+  "force_rl_prob_start": 0.8,
+  "force_rl_prob_end": 0.2,
+  "decay_steps_ratio": 0.5,
+  "soft_rhcr_msgs_mode": "dual",
+  "policy_update_mode": "on_policy",
+  "planner_aux_loss": "consistency",
+  "kl_coef": 0.0,
+  "kl_coef_end": null,
+  "fp_consistency_coef": 0.1,
+  "fp_consistency_coef_end": null,
+  "fp_consistency_pmin": 0.6,
+  "fp_consistency_safe_only": true
+}

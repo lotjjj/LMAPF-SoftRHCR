@@ -1,0 +1,22 @@
+{
+  "critic_mode": "per_agent",
+  "huber_delta": 10.0,
+  "use_clipped_value_loss": true,
+  "reward_mode": "legacy",
+  "lambda1": 0.1,
+  "lambda2": 0.1,
+  "lambda3": 0.02,
+  "gate_no_ppo_grad": false,
+  "specialized_lambda_anneal": true,
+  "specialized_lambda_min": 0.0,
+  "bce_lambda_anneal": true,
+  "bce_lambda_min": 0.0,
+  "bce_lambda_exp_k": 10.0,
+  "specialized_huber_delta": 1.0,
+  "gate_hidden_dim": 128,
+  "hard_tau": 0.8,
+  "fp_soft_beta": 2.0,
+  "kpc_horizon": 10,
+  "kpc_exp_beta": 10.0,
+  "conflict_sparse_gate_supervision": true
+}

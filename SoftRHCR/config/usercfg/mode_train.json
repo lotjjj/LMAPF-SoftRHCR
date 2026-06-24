@@ -1,0 +1,10 @@
+{
+  "algorithm": "soft_rhcr_mappo",
+  "run_name": "train_default",
+  "run_dir": "./train_runs",
+  "render": false,
+  "render_interval_s": 0.0,
+  "checkpoint_path": null,
+  "start_episode": 0,
+  "total_steps": 0
+}

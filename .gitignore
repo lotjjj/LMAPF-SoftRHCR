@@ -1,0 +1,27 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+# IDE files
+.idea/
+.trae/
+.vscode/
+.git/
+.qoder/
+
+# tools
+scratch/
+*_runs/
+
+# Training artifacts
+models/
+runs/
+runs_mappo_test/
+
+# Temp / review files
+review_diff.txt
+test_*.py

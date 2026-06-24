@@ -1,0 +1,10 @@
+{
+  "algorithm": "follow_planner",
+  "run_name": "runtime_default",
+  "run_dir": "./runtime_runs",
+  "render": false,
+  "render_interval_s": 0.5,
+  "model_path": null,
+  "run_config_path": null,
+  "msgs_mode": null
+}

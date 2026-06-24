@@ -1,0 +1,20 @@
+{
+  "critic_mode": "per_agent",
+  "huber_delta": 10.0,
+  "use_clipped_value_loss": true,
+  "reward_mode": "legacy",
+  "soft_rhcr_L": 2,
+  "soft_rhcr_k": 10,
+  "force_rl_prob_start": 0.8,
+  "force_rl_prob_end": 0.02,
+  "decay_steps_ratio": 0.2,
+  "soft_rhcr_msgs_mode": "dual",
+  "policy_update_mode": "on_policy",
+  "planner_aux_loss": "consistency",
+  "kl_coef": 0.1,
+  "kl_coef_end": 0.001,
+  "fp_consistency_coef": 0.1,
+  "fp_consistency_coef_end": 0.001,
+  "fp_consistency_pmin": 0.8,
+  "fp_consistency_safe_only": true
+}
